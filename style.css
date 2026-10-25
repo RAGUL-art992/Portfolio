@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    /*padding: 0;*/
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 15px 40px;
+    color: white;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.navbar nav a:hover {
+    color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e2e8f0;
+}
+
+.highlight {
+    color: #0284c7;
+}
+
+/* Common Section Style */
+.section {
+    padding: 60px 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Skills List */
+.skillslist {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.skillslist li {
+    background: #0284c7;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+/* Project Card */
+.projectcard {
+    background: white;
+    background-image: url(images/job_image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #28364d;
+    color: white;
+}
